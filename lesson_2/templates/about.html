@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="/static/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1 class="text-monospace">Привет, меня зовут {{ name }}</h1>
+    <!-- <img src="/static/img/my_photo.png" alt="Мое фото" width="300">-->
+    <img src="{{ url_for('static', filename='img/my_photo.png') }}" alt="Мое фото" width="300">
+    <p class="text-body text-justify">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Составитель речью агентство которой над путь повстречался маленький вершину правилами жизни, безопасную заголовок рыбного раз моей дал необходимыми запятых знаках.</p>
+    <p class="alert-dark">Все права защищены &copy;</p>
+
+<!--    <script src="/static/js/bootstrap.bundle.min.js"></script>-->
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>

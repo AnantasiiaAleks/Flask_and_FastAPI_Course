@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+
+.menuLink {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+.sheetTitle {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.paragraph, .productDesc {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+.h2, .productTitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
